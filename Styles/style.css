@@ -19,17 +19,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 178px;
 }
 .intro-content > h1 {
   color: rgb(39, 39, 39);
-  font-family: Lato;
   font-size: 80px;
   font-weight: 800;
   margin-bottom: 32px;
 }
 .intro-content > p {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 32px;
@@ -39,7 +38,6 @@ body {
   border: none;
   background: rgb(229, 84, 115);
   color: rgb(255, 255, 255);
-  font-family: Lato;
   font-size: 20px;
   font-weight: 700;
   padding: 20px 43px 20px 43px;
@@ -50,3 +48,24 @@ body {
   margin-top: 45px;
 }
 /* Flower First End */
+
+/* Featured Styles Start*/
+.featured {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.featured > h1 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.featured > p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Featured Styles End*/
