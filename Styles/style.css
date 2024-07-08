@@ -144,3 +144,68 @@ body {
   text-decoration: underline;
 }
 /* Flowers Picture Styles End */
+
+/* Customer Care Section Style Start */
+.customer {
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.daily-delivery {
+  text-align: center;
+  margin: 86px 0 87px 175px;
+}
+
+.daily-delivery > img {
+  width: 77px;
+  height: 82.5px;
+  margin-bottom: 24px;
+}
+
+.daily-delivery > p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fresh-flower {
+  text-align: center;
+  margin: 86px 87px;
+}
+
+.fresh-flower > img {
+  width: 85.39px;
+  height: 85.42px;
+  margin-bottom: 20px;
+}
+
+.fresh-flower > p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.free-support {
+  text-align: center;
+  margin: 86px 175px 87px 0;
+}
+
+.free-support > img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 18px;
+}
+
+.free-support > p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+/* Customer Care Section Style End */
