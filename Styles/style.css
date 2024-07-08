@@ -209,3 +209,41 @@ body {
   font-weight: 600;
 }
 /* Customer Care Section Style End */
+
+/* hot deal style start */
+.hot-deal {
+  width: 1920px;
+  height: 850px;
+  border: 10px solid red;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sale-up {
+  width: 594px;
+  height: 228px;
+  text-align: center;
+  margin: 230px 0 162px 150px;
+}
+
+.sale-up > h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.sale-up > p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.rose-img {
+  margin: 100px 429px 100px 0;
+}
+
+/* hot deal style end */
