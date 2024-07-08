@@ -1,11 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "Lato", sans-serif; 
+body {
+  font-family: "Lato", sans-serif;
 }
+
+/* Flower First Start */
+.flower-first {
+  width: 1920px;
+  height: 850px;
+  margin: 0 auto;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.intro-content > h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+.intro-content > p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  border-radius: 8px;
+  border: none;
+  background: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px 20px 43px;
+}
+.banner-img {
+  width: 635px;
+  height: 800px;
+  margin-top: 45px;
+}
+/* Flower First End */
